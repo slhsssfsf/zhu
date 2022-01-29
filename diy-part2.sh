@@ -16,3 +16,4 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/slhsssfsf/openwrt-passwall package/lean/openwrt-passwall
+git clone https://github.com/fw876/helloworld package/lean/helloworld
